@@ -4,7 +4,7 @@
     methods. 3) we can access base class methods
 */
 public class SuperQ1 {
-    public String Industry;
+    protected String Industry;
 
     SuperQ1(String industryName){
         this.Industry = industryName;

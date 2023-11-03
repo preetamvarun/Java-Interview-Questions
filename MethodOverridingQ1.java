@@ -19,8 +19,10 @@ class Dog extends Animal {
 
 /*Ans : Method overriding occurs in java if the subclass method has the same
 signature of a parent class method. If we create an instance of subclass then the
-subclass method will be executed. The overriding method should have same or more
-access control than the overridden method. When we are overriding an certain method
+subclass method will be executed.
+The overriding method should have same or more
+access control than the overridden method.
+When we are overriding a certain method
 It's better to use @Ovverride Annotation
 */
 
