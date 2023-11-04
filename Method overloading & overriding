@@ -24,7 +24,8 @@ can have different states and behaviours based on how it is instantiated.
 Q4) why is java a platform independent language? what is a byte code in java. explain JIT compilation ?
 -> when we first write a java program and executes it, The first step is it will be
 compiled to byte code which consists of series of instructions that java program needs
-to execute. The byte code class extension will be .class. Then it has to executed. There
+to execute. This conversion is done by java compiler which is part of JDK. The byte code
+class  extension will be .class. Then it has to executed. There
 are several steps that will happen when the code is executed. This byte code can be executed
 by any machine that has JVM which makes java a platform independent language.
 
@@ -101,3 +102,60 @@ ans) C++ and Java are both powerful programming languages, but they have several
 
      Both languages have their strengths and weaknesses, and the choice between C++ and Java depends on the specific requirements of your project and your programming preferences.
 
+
+Q6) In Java, a constructor is a special type of method that is used to initialize objects.
+It is called when an object of a class is created, and its primary purpose is to set
+up the initial state of the object by assigning values to its fields or properties.
+Constructors have the following characteristics:
+
+1. **Same Name as Class:** A constructor has the same name as the class it belongs to.
+It does not have a return type, not even `void`.
+
+2. **Initialization:** Constructors are responsible for initializing the object's state,
+which includes setting initial values for its fields or properties.
+This is typically done using parameters passed to the constructor.
+
+3. **Default Constructor:** If a class does not explicitly define any constructors,
+it is provided with a default constructor by the Java compiler.
+The default constructor has no parameters and does very basic initialization.
+
+4. **Overloading:** Like regular methods, constructors can be overloaded.
+This means you can define multiple constructors with different parameter
+lists to allow for different ways of initializing objects.
+
+5. **Implicit and Explicit Invocation:** Constructors can be implicitly invoked
+when an object is created using the `new` keyword.
+
+Alternatively, you can explicitly call a constructor using the `this`
+keyword or chaining it with another constructor in the same class using the
+`super` keyword in the case of inheritance.
+
+
+Q7) The `main()` method in Java is defined with specific modifiers (`public`, `static`,
+and `void`) for several important reasons:
+
+1. **public:** The `public` access modifier indicates that the `main()` method is
+accessible from outside the class. This is required because it allows the Java Virtual Machine
+(JVM) to locate and execute the `main()` method when you run a Java program.
+Without `public`, the JVM wouldn't be able to access the `main()` method,
+and the program would not execute.
+
+2. **static:** The `static` modifier means that the `main()` method belongs to the class
+rather than a specific instance of the class. Since the `main()` method serves as the
+entry point for a Java program, it must be accessible without creating an
+instance of the class. Making it `static` ensures that it can be called
+directly on the class itself, like `ClassName.main(args)`,
+without needing to create an object of the class.
+
+3. **void:** The `void` return type indicates that the `main()`
+method does not return any value when it completes its execution.
+In the context of the `main()` method, it makes sense because
+it's not expected to return any result.
+Instead, its purpose is to start the execution of the program and
+not return a value to the caller.
+
+In summary, the combination of `public`, `static`, and `void` modifiers in the `main()`
+method is necessary to make it accessible to the JVM as the entry point for a Java
+application. The `public` modifier ensures it can be located from outside the class,
+the `static` modifier allows it to be called without creating an instance, and the
+`void` return type reflects that it doesn't return any value upon completion.

@@ -1,4 +1,8 @@
 class Animal {
+
+    Animal(){
+        System.out.println("Animal class constructor");
+    }
     void makeSound(){
         System.out.println("Animal is making a sound");
     }
@@ -6,14 +10,18 @@ class Animal {
 
 class Dog extends Animal {
 
+    Dog(){
+        super();
+    }
+
     @Override
     void makeSound(){
         System.out.println("Dog is barking");
     }
 
     public static void main(String[] args) {
-        Animal a = new Dog();
-        a.makeSound();
+        Dog d = new Dog();
+        d.makeSound();
     }
 }
 
