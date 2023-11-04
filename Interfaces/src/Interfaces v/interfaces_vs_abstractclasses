@@ -1,0 +1,17 @@
+Differences between interfaces and abstract classes
+
+-> abstract classes are defined with abstract keyword.
+-> Interfaces are defined with interface keyword.
+-> Both abstract classes and interfaces contains concrete methods
+-> Variables in interfaces should be public static final. This is not the case in
+abstract classes.
+-> A class can extend only one abstract class whereas a class can implement one or more
+interfaces.
+-> functions that are not abstract in interfaces can only be default or private. whereas
+In abstract class any non abstract method can be public, private, protected or default.
+-> All the classes that implements interfaces or extends abstract class should implement
+all the abstract methods.
+-> we need to explicitly specify that a method is abstract  method in an abstract class.
+In case of interfaces we don't need to specify abstract keyword. By default it is assumed
+that the method is abstract.
+-> we can achieve multiple inheritance using interfaces.

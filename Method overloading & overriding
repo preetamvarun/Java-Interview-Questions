@@ -2,12 +2,13 @@ Q1) Explain the difference Method overloading and Method overriding
 
 -> Method overloading can occur in the same class. Method overloading means the method
 will have the same name but it can have different parameter list and different return type.
-Method overloading occurs in the same class.
+Method overloading occurs in the same class. Method overloading is determined at the
+compile time.
 
 -> Whereas, Method overriding occurs in the sub class where a method in the parent class
 will have the same signature and same name as the method in the sub class.
 -> The access control of overriding method should be same or more than the
-overridden method.
+overridden method. Method overriding is determined at the run time.
 
 Q2) What is a class in java ?
 
@@ -103,7 +104,9 @@ ans) C++ and Java are both powerful programming languages, but they have several
      Both languages have their strengths and weaknesses, and the choice between C++ and Java depends on the specific requirements of your project and your programming preferences.
 
 
-Q6) In Java, a constructor is a special type of method that is used to initialize objects.
+Q6) Explain about constructors in java
+
+In Java, a constructor is a special type of method that is used to initialize objects.
 It is called when an object of a class is created, and its primary purpose is to set
 up the initial state of the object by assigning values to its fields or properties.
 Constructors have the following characteristics:
