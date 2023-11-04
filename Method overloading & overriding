@@ -1,0 +1,103 @@
+Q1) Explain the difference Method overloading and Method overriding
+
+-> Method overloading can occur in the same class. Method overloading means the method
+will have the same name but it can have different parameter list and different return type.
+Method overloading occurs in the same class.
+
+-> Whereas, Method overriding occurs in the sub class where a method in the parent class
+will have the same signature and same name as the method in the sub class.
+-> The access control of overriding method should be same or more than the
+overridden method.
+
+Q2) What is a class in java ?
+
+-> A class is a user defined data type. It determines a blue print or template for object.
+It defines the behaviour of the object by having methods and fields. Through class we can
+achieve encapsulation, polymorphism, inheritance & abstraction.
+
+Q3) what is an object in java ?
+
+-> An object is an instance of the class. A class is a blue-print for an object contains
+methods and fields. when we instantiate a class JVM allocates memory in the heap. An object
+can have different states and behaviours based on how it is instantiated.
+
+Q4) why is java a platform independent language? what is a byte code in java. explain JIT compilation ?
+-> when we first write a java program and executes it, The first step is it will be
+compiled to byte code which consists of series of instructions that java program needs
+to execute. The byte code class extension will be .class. Then it has to executed. There
+are several steps that will happen when the code is executed. This byte code can be executed
+by any machine that has JVM which makes java a platform independent language.
+
+Step - 1 : Firstly, the JVM loads the byte code into memory for execution.
+
+Step - 2 : Then the the byte code is verified thoroughly so that is it follows all the
+java rules and is safe to execute. This is a verification step and it is crucial
+
+Step - 3 : This step is optional, the jvm may decide to interpret the byte code meaning
+It goes line by line in the byte code and converts into machine code and will be executed
+by the CPU of that particular machine.
+
+Step - 4 : while the code is being converted into machine code and executed JVM uses
+something known as Just In Time Compiler.
+
+Step - 5 : Profilling the data is gonna happen in this stage. It means jvm identifies
+if there are parts of code that are frequently executed. It basically sees for optimization
+that can be done in that code [Based on that particular machines hardware architecture].
+Then with the help of that profilled data jvm converts this
+optimizable chunk of code into machine level code which can then be translated into
+machine level code and later on can be executed. This sort of execution is going to be
+much faster.
+
+Step - 6 : Caching is gonna happen. The jvm may store the generated machine level code
+in the cache so that it can be execution in any future runs without doing the entire operation
+again.
+
+Q5) what is the difference between c++ and java ?
+ans) C++ and Java are both powerful programming languages, but they have several differences in terms of their design, usage, and features. Here's a comparison of C++ and Java:
+
+     1. **Language Type:**
+        - C++: C++ is a multi-paradigm programming language that supports both procedural and object-oriented programming.
+        - Java: Java is primarily an object-oriented programming language with some support for functional programming.
+
+     2. **Memory Management:**
+        - C++: In C++, you have explicit control over memory management, which means you are responsible for allocating and freeing memory (using `new` and `delete` operators).
+        - Java: Java uses automatic memory management (garbage collection), which handles memory allocation and deallocation, making it less error-prone.
+
+     3. **Platform Independence:**
+        - C++: C++ code is compiled into machine-specific binary code, so it is less platform-independent. Code may need to be recompiled for different platforms.
+        - Java: Java code is compiled into bytecode, which can be executed on any platform with a Java Virtual Machine (JVM), making it highly platform-independent.
+
+     4. **Standard Library:**
+        - C++: C++ has a powerful standard library (STL) that provides data structures (e.g., vectors, lists), algorithms, and various utilities.
+        - Java: Java has a comprehensive standard library with extensive built-in classes for tasks like I/O, collections, networking, and more.
+
+     5. **Pointers and References:**
+        - C++: C++ allows the use of pointers and references, which offer fine-grained control over memory and object manipulation.
+        - Java: Java does not have pointers or explicit references, which enhances safety but reduces low-level control.
+
+     6. **Multiple Inheritance:**
+        - C++: C++ supports multiple inheritance, allowing a class to inherit from more than one class.
+        - Java: Java does not support multiple inheritance via classes. It uses interfaces for achieving similar functionality.
+
+     7. **Exceptions:**
+        - C++: C++ uses exceptions for error handling but does not enforce their use.
+        - Java: Java enforces the use of exceptions for error handling and has a strong exception-handling mechanism.
+
+     8. **Threading:**
+        - C++: C++ provides threading support through libraries like the C++ Standard Library or platform-specific libraries.
+        - Java: Java has built-in support for multithreading, making it easier to develop concurrent applications.
+
+     9. **Operator Overloading:**
+        - C++: C++ allows operator overloading, which lets you define custom behaviors for operators like `+` or `-`.
+        - Java: Java does not support operator overloading, which can help ensure code readability and consistency.
+
+     10. **Low-Level System Programming:**
+         - C++: C++ is commonly used for system-level programming and developing performance-critical applications.
+         - Java: Java is not typically used for low-level system programming due to its platform-independent nature and managed memory.
+
+     11. **Community and Ecosystem:**
+         - C++: C++ has a well-established community and is commonly used in areas like game development, embedded systems, and system programming.
+         - Java: Java has a vast ecosystem and is popular in web development, Android app development, and enterprise software.
+
+     Both languages have their strengths and weaknesses, and the choice between C++ and Java depends on the specific requirements of your project and your programming preferences.
+
