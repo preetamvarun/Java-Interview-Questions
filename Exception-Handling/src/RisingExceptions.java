@@ -50,8 +50,7 @@
  when java compiler compiles the code, if the source code doesn't adhere to the rules
  of the java like missing semicolon etc., then these sort of errors are generated.
  Exceptions are the events that occur in an program that disrupts the normal flow of the
- program's execution. These are the sub class of Throwable class in java. These occur
- during the run time. But, these exceptions can be
+ program's execution. These are the sub class of Throwable class in java. But, these exceptions can be
  handled in java using try catch blocks.
  There are also errors in java that are not compilation errors. These occur during
  the run time. These errors are a subclass of Throwable class in java. These errors
