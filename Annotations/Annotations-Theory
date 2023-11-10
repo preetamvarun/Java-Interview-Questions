@@ -1,0 +1,13 @@
+What are annotations in java ? what is there primary purpose ?
+
+Ans) Annotations in java are basically meta data which gives information about other parts
+ of code like methods, classes, fields, constructors, warnings etc., These annotations
+ doesn't effect other parts of the code but useful while documenting the code. These
+ annotations are prefixed with @ symbol.
+
+ Difference between annotations and comments ?
+ ans) Annotations are a form of meta data which can be processed by tools. Whereas,
+ comments are used for human readability purposes and are completely ignored at run time
+ and compile time.
+
+ @Deprecated, @SuppressedWarnings, @Override are some of the inbuilt annotations in java.

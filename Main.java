@@ -1,19 +1,9 @@
 import java.util.Objects;
-
+import Learn_Packages.Package;
 public class Main {
     public static void main(String[] args){
-        if(Objects.equals(args[1], "Goku")){
-            System.out.println("Running Goku's main method");
-        }
-        else if(Objects.equals(args[1], "Vegeta")) {
-            System.out.println("Running vegeta's code");
-        }
-        else if(Objects.equals(args[2], "Gohan")){
-            System.out.println("Running Gohans' code");
-        }
-        else {
-            System.out.println("Running normal code");
-        }
+        // Using packages code inside the main method
+        Package p = new Package();
     }
 }
 

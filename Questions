@@ -1,0 +1,43 @@
+What are Identifiers in java ?
+
+Ans) Identifiers in java are used to name elements in the program like classes,
+interfaces, variables, methods, packages. Identifiers in java are case-sensitive.
+When naming identifiers in java is conventional to use camelcase naming convention.
+Allowed character set in identifiers are A-Z, a-z, 0-9, _, $. An identifier can't start
+with a digit. It is recommended to use upper case letters separated with underscore. Eg.
+MAX_VALUE.
+
+
+
+Access Modifiers Table in java ?
+
+Access modifiers in Java determine the visibility or accessibility of classes, fields,
+methods, and other elements in your code. There are four main access levels in Java.
+
+Here's a table summarizing the access modifiers and their access levels:
+
+| Access Modifier | Class | Package | Outside package (Subclass) | Any Class |
+|-----------------|-------|---------|----------|-----------|
+| `public` | Yes | Yes | Yes | Yes |
+| `protected` | Yes | Yes | Yes | No |
+| `default` | Yes | Yes | No | No |
+| `private` | Yes | No | No | No |
+
+These access modifiers help you control the visibility and encapsulation of your classes
+and members, allowing you to design your classes in a way that balances security and
+extensibility according to your application's needs.
+
+
+What access modifiers can be applied to the class ?
+Ans : Default and Public
+
+What access modifiers can be applied to variables ?
+Ans : Public, Private, Protected and Default
+
+what access modifiers can be applied to methods ?
+Ans : Public, private, default and protected.
+
+Final class : Can't be extended.
+Final Method : Can't be overridden
+Final variable : Can't be modified after it has been initialized.
+
