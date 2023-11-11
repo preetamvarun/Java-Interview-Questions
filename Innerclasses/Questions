@@ -1,0 +1,38 @@
+Q1) WHAT ARE NESTED CLASSES IN JAVA ?
+
+ANS) A class which is declared under another class is called a nested class in java.
+
+There are two types of nested classes are there in java
+
+1) static nested class
+
+2) non-static nested class
+
+we can have several types of nested classes. Like class inside a class. This class can
+either be static or non-static. We can define a class inside a method. But This class
+can't be accessed outside the method.
+
+
+Q2) Explain about anonymous inner classes.
+
+i) An anonymous class that has no name but it is a sub class of it's parent class and it
+overrides the methods of the parent class. We can create only one object for this
+anonymous class.
+
+ii) Another anonymous class is a class that implements all the methods of an interface.
+
+
+Q3) Purpose of nested classes in java
+
+Ans) Grouping of related classes : A class that is not re-usable can be defined as an
+inner class.
+To create More encapsulation : If we create any private variables inside the inner class
+they can be accessed only by the inner class itself.
+Code readability. Rather than creating a separate class file which is not reusable anyway
+it is better to define an inner class so that it is easier to read and maintain.
+
+
+Q4) Restrictions for anonymous inner class ?
+Ans) Anonymous inner classes can't have any constructor because they don't have any class
+names. They can't have static members inside this anonymous inner class. They can be
+instantiated only once.

@@ -1,9 +1,7 @@
 public class ByThree extends ByTwo implements SeriesGen{
-
     ByThree(int startNumber){
         super(startNumber);
     }
-
     @Override
     public void getNext(){
         while(true){
@@ -21,5 +19,6 @@ public class ByThree extends ByTwo implements SeriesGen{
         ByThree th = new ByThree(-1);
         th.getNext();
         th.Description();
+        SeriesGen.staticMethod();
     }
 }
