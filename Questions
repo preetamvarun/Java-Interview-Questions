@@ -41,3 +41,104 @@ Final class : Can't be extended.
 Final Method : Can't be overridden
 Final variable : Can't be modified after it has been initialized.
 
+
+
+Purpose of interface ?
+
+-> Interface allows multiple inheritance. A class implement any number of interfaces but
+it can extend only one class
+-> Interface restricts class to override all the abstract methods that are defined in the
+interface.
+-> We can achieve abstraction since there will be abstract methods in the interface.
+
+Explain Naming convention for packages.
+
+-> USE REVERSE DOMAIN NAMES.
+-> Don't use underscores and reserve keywords in packages
+-> Only use lower case letters
+
+ What is the scope or life time of instance variables ?
+
+ ans) When we create an object the reference variable which is pointing to that object
+ will be stored on the stack and the actual object value will be store in the heap. When
+ there are no more reference variable referencing that object which is in the heap, then
+ that object becomes eligible for garbage collection. Once it is garbage collected by the
+ jvm the life time for that objects ends.
+
+what is the life time of local variables in java ?
+ans) When we create a local variable inside a method it's value is stored in the stack.
+Once the method is returned or finished it's execution It'll be popped out of the stack
+which will end the life time of the local variable.
+
+what are principles of object oriented programming language ?
+
+There are 4 main features are there in oop. i) Encapsulation ii) Abstraction iii)
+Inheritance iv) Polymorphism
+
+i) Encapsulation : Encapsulation is a technique where we bind data and methods that
+operate on that data together so that any external code will not have access to the data.
+For example if we have an attribute that is private in a class we will then define a
+method which will be public and by only using this public method we will get access to
+that data.
+
+ii) Abstraction : Abstraction is a concept of hiding internal details of the user and
+displaying what is the necessary. For example, consider there is an abstract method in an
+abstract class. This abstract method will not have any implementation in the class itself.
+But different classes which extend this abstract class will provide their own
+implementation according their needs.
+
+iii) Inheritance : Inheritance is a concept of inheriting the properties and methods of
+the parent class to a sub class. So, the instances that are created for the sub class can
+access all the properties and methods which are inherited from it's parent class.
+These properties and methods which are  being inherited should not be private. We can
+achieve code re-usability with the help of inheritance.
+
+iv) Polymorphism : It means the ability of a function which has the same name can perform
+differently based on it's return type and number of parameters. In polymorphism we have
+two main concepts : 1) Method overloading 2) Method overriding.
+Method overloading : when a class has two or more methods with same but if they have
+different no.of parameters and different return type, If we call a method in that class
+appropriate method will be called based on the methods signature.
+Method overriding : when parent class and sub class has same method name with same
+signature, if we create an instance on the sub class and call the method which is similar
+to the one in parent class still the child class method will be called because this
+method will override the method in the parent class.
+
+
+
+EXPLAIN THE IMPORTANCE OF INHERITANCE IN JAVA ?
+
+RE-USABILITY : All the properties which are inherited from the parent class can be used in
+the sub-class as well. So, there is no need to repeat the same code again the child class.
+
+Extensibility : we can extend the functionality of our program without touching the
+existing code with the help of inheritance. we can simply inherit the necessary code
+that is needed for this feature/functionality to develop and we can code our own feature
+from here on.
+
+Maintenance : All the changes that are applied to the parent class are automatically
+reflected to the child class, therefore it will be easier to maintain the code.
+
+METHOD OVERRIDING : INHERITANCE helps us to achieve polymorphism through method overriding
+.
+
+Abstraction : We can achieve abstraction through inheritance as well. We can create a
+higher level parent class that contains abstract methods and all other classes that extend
+this abstract class can provide their own implementation.
+
+
+
+LIST OUT THE BENEFITS OF OBJECT ORIENTED PROGRAMMING LANGUAGE :
+
+I) CODE MAINTENANCE
+II) CODE RE-USABILITY
+III) CODE EXTENSIBILITY
+IV) IMPROVED SECURITY THROUGH ABSTRACTION & ENCAPSULATION
+V) MODULARIZED CODE
+
+
+
+Explain the scope or life time of class variables or static variables?
+
+ Life time of these variables will last till the program finishes it's execution.
+
