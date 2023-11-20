@@ -7,8 +7,6 @@ Allowed character set in identifiers are A-Z, a-z, 0-9, _, $. An identifier can'
 with a digit. It is recommended to use upper case letters separated with underscore. Eg.
 MAX_VALUE.
 
-
-
 Access Modifiers Table in java ?
 
 Access modifiers in Java determine the visibility or accessibility of classes, fields,
@@ -136,9 +134,5 @@ III) CODE EXTENSIBILITY
 IV) IMPROVED SECURITY THROUGH ABSTRACTION & ENCAPSULATION
 V) MODULARIZED CODE
 
-
-
 Explain the scope or life time of class variables or static variables?
-
- Life time of these variables will last till the program finishes it's execution.
-
+Life time of these variables will last till the program finishes it's execution.
