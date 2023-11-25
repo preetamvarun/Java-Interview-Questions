@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Interview-Questions.iml" filepath="$PROJECT_DIR$/.idea/Java-Interview-Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Multi-Threading/Multi-Threading.iml" filepath="$PROJECT_DIR$/Multi-Threading/Multi-Threading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />
     </modules>
   </component>
 </project>
