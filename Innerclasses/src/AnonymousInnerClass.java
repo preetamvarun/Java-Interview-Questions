@@ -11,28 +11,29 @@
 public class AnonymousInnerClass {
     public static void main(String[] args) {
 
-//        Animal a = new Animal();
-//        a.makeNoise();
-// /*anon is an object of an anonymous class that is a sub class of Animal and doesn't
-// have a name*/
-//        Animal anon = new Animal() {
-//
-//            void makeNoise(){
-//                System.out.println("Anonymous animal is making a sound");
-//            }
-//        };
-//        anon.makeNoise();
+        Animal a = new Animal();
+        a.makeNoise();
+ /*anon is an object of an anonymous class that is a subclass of Animal and doesn't
+ have a name*/
+        Animal anon = new Animal() {
+
+            @Override
+            void makeNoise(){
+                System.out.println("Anonymous animal is making a sound");
+            }
+        };
+        anon.makeNoise();
 
 
         // We are creating an object of a class type that doesn't have a name
-        Runnable r = new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("Implementing the run method in runnable Interface");
-            }
-        };
-
-        r.run();
+//        Runnable r = new Runnable() {
+//            @Override
+//            public void run() {
+//                System.out.println("Implementing the run method in runnable Interface");
+//            }
+//        };
+//
+//        r.run();
     }
 }
 
