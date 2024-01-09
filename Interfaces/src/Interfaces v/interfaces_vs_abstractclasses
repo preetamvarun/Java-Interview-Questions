@@ -15,3 +15,4 @@ all the abstract methods.
 In case of interfaces we don't need to specify abstract keyword. By default it is assumed
 that the method is abstract.
 -> we can achieve multiple inheritance using interfaces.
+-> We can have a constructor for abstract class. Whereas, we can't have a constructor for an interface
