@@ -27,10 +27,10 @@ class Cat extends Animal{
 }
 
 
-// Upcasting : When we are trying to convert a parent class object into a child class
-// object then we are doing up casting.
-// DownCasting : When we are trying to convert a child class object into a parent class
-// object then we are doing down casting.
+// Upcasting : when we are assigning a child class object to parent class reference variable then we are doing upcasting.
+// Downcasting : we assign a child class object to parent class reference variable as well. now we convert this parent class reference variable into child class reference
+// variable completely by explicitly doing the type casting. Dog d = (Dog)parentClassReferenceVariable;
+
 public class Main{
 
     public static void upCast(Animal animal){
