@@ -1,0 +1,11 @@
+1) What is a process ?
+Ans) A process is an execution of a program. It requires memory space to get executed. Like for example, running an app on the desktop. One or more threads will make a process.
+
+
+2) What is a thread ?
+Ans) A thread is a separation execution path in the program. A program can have one or more threads. Unlike processes, all threads in the program share same memory space.
+Threads are light-weight compared to processes. Switching between threads is not as costly as switching between processes. In mutli-threaded langauges, it better to use approach
+to reduce the idle time of the cpu. In java, by default we will get the main thread.
+
+There are two types of multi-tasking are there. 1) Process based mutli-tasking and thread based multi-tasking.
+
